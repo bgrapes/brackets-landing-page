@@ -4,12 +4,11 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  min-height: 340px;
+  padding-bottom: 110px;
   align-items: center;
 
   @media (min-width: 576px) {
     align-items: flex-start;
-    min-height: 425px;
   }
 `
 

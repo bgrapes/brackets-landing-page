@@ -5,7 +5,7 @@ import '../css/reset.css'
 
 import Seo from '../components/Seo'
 import { GlobalStyle, Wrapper, Inner, Container } from '../components/Layout'
-import Header from '../components/Header'
+import NavBar from '../components/NavBar'
 import Hero from '../components/Hero'
 import Products from '../components/Products'
 
@@ -32,13 +32,13 @@ class PageTemplate extends React.Component {
             image={`http:${backgroundImage.resize.src}`}
           />
           <GlobalStyle />
-          <Header
-            logo={logo.file.url}
-            title={title}
-            navigationItems={navigationItems}
-            primaryCta={primaryCta}
-          />
           <Container>
+            <NavBar
+              logo={logo.file.url}
+              title={title}
+              navigationItems={navigationItems}
+              primaryCta={primaryCta}
+            />
             <Hero
               headline={hero.headline}
               subHeadline={hero.subHeadline}

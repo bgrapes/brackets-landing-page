@@ -6,7 +6,7 @@ import { Wrapper } from './styles'
 
 const Products = ({ products }) => (
   <Wrapper>
-    <Grid fluid>
+    <Grid>
       <Row>
         {products.map((product, index) => {
           const { title, description, image, url } = product

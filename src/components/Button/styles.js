@@ -22,7 +22,6 @@ export const Wrapper = styled.button`
   display: flex;
   align-items: center;
   width: inherit;
-  align-self: flex-start;
   margin-right: 20px;
 
   ${({ type }) => handleButtonStyles(type)};
