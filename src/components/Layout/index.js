@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
   background-image: ${(props) => `url(${props.backgroundImage})`};
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 70% 40%;
   height: 100%;
 
   /* Dark overlay */
